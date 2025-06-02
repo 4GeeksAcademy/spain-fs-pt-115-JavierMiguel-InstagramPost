@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post {
+    background-color: white;
+    width: 60%;
+    height: 80%; 
+}
+
+
+.postHeader {
+    width: 100%;
+    height: 10%;
+    border: 2px dotted rgb(255, 0, 0);
+}
+
+.postContainer {
+
+    width: 100%;
+    height: 60%;
+    border: 2px dotted rgb(255, 0, 0);
+}
+
+.containerImg {
+    object-fit: fill;
+}
+
+.postBottom {
+
+    width: 100%;
+    height: 29%;
+    border: 2px dotted rgb(255, 0, 0);
+}
+
+.postBottom-Icons {
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.postBottom-Text {
+    margin: 0 1% 0 1%;
+}
