@@ -7,15 +7,38 @@ body {
 
 .post {
     background-color: white;
-    width: 60%;
-    height: 80%; 
+    width: 100%;
+    max-width: 600px;
+    height: 60%; 
+    overflow: hidden;
 }
 
 
 .postHeader {
-    width: 100%;
-    height: 10%;
-    border: 2px dotted rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.leftHeader > i {
+    font-size: 30px;
+}
+
+.leftHeader > p {
+    padding-left: 10px;
+}
+
+.rightHeader {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-right: 10px;
 }
 
 .postContainer {
